@@ -143,7 +143,7 @@ public class Main {
     private static void addCourse() throws DuplicateRecordException, SQLException {
         String code = InputValidator.readNonEmptyString(sc, "Course code: ");
         String name = InputValidator.readNonEmptyString(sc, "Course name: ");
-        int credits = InputValidator.readInt(sc, "Credits: ");
+        int credits = InputValidator.readPositiveInt(sc, "Credits: ");
         courseService.addCourse(code, name, credits);
         System.out.println("Course added successfully.");
     }
