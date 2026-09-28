@@ -119,6 +119,15 @@ mvn exec:java
 java -jar target/Student_Management_System-1.0-SNAPSHOT.jar
 ```
 
+
+## Database Configuration
+
+Update the database configuration with your MySQL details:
+
+--```properties
+--db.url=jdbc:mysql://localhost:3306/student_management
+--db.username=your_username
+--db.password=your_password
 ## Screenshots
 main menu 
 ![Main_menu.png](screenshot/Main_menu.png)
