@@ -19,6 +19,17 @@ program exits.
   (`RecordNotFoundException`, `DuplicateRecordException`) instead of raw
   stack traces.
 
+
+## Requirements
+
+Before running the project, make sure you have:
+
+- Java JDK 17 or later
+- MySQL Server
+- IntelliJ IDEA
+- Maven
+- Git
+
 ## Technologies / Libraries Used
 
 
