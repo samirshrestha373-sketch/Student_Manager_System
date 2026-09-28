@@ -115,6 +115,16 @@ Adding the students
 
 updating the students
 ![Update_students.png](screenshot/Update_students.png)
+
+
+## Database Setup
+
+Create a MySQL database.
+Open the schema.sql file.
+Run the SQL commands in MySQL.
+Configure the database connection in db.properties.
+Build and run the project.
+
 ## Known Limitations
 
 - No authentication/login mode (admin vs. student view) — listed as a
