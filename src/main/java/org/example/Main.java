@@ -79,7 +79,7 @@ public class Main {
     }
 
     private static void addStudent() throws SQLException, DuplicateRecordException {
-        int id = InputValidator.readInt(sc, "Student ID: ");
+        int id = InputValidator.readPositiveInt(sc, "Student ID: ");
         String name = InputValidator.readNonEmptyString(sc, "Name: ");
         String email = InputValidator.readNonEmptyString(sc, "Email: ");
         String phone = InputValidator.readNonEmptyString(sc, "Phone: ");

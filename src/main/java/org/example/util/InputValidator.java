@@ -64,4 +64,17 @@ public final class InputValidator {
             System.out.printf("Please enter a value between %.1f and %.1f.%n", min, max);
         }
     }
+
+    public static int readPositiveInt(Scanner sc, String prompt) {
+        while (true) {
+            int value = readInt(sc, prompt);
+
+            if (value > 0) {
+                return value;
+            }
+
+            System.out.println("Please enter a positive number.");
+        }
+    }
+
 }
