@@ -1,6 +1,3 @@
--- Student Management System - Database Schema
--- Run this once against your MySQL server to set everything up:
---   mysql -u root -p < schema.sql
 
 CREATE DATABASE IF NOT EXISTS student_management_system;
 USE student_management_system;
@@ -42,15 +39,15 @@ CREATE TABLE IF NOT EXISTS enrollments (
 -- ---------------------------------------------------------------
 -- Optional sample data - uncomment to try the app out quickly
 -- ---------------------------------------------------------------
--- INSERT INTO students (id, name, email, phone, enrollment_date) VALUES
---   (1, 'Aarav Sharma', 'aarav@example.com', '9800000001', '2024-01-10'),
---   (2, 'Priya Gurung', 'priya@example.com', '9800000002', '2024-01-11');
---
--- INSERT INTO courses (course_code, course_name, credits) VALUES
---   ('CS101', 'Introduction to Programming', 3),
---   ('CS102', 'Data Structures', 4);
---
--- INSERT INTO enrollments (student_id, course_id, marks) VALUES
---   (1, 1, 85.5),
---   (1, 2, 78.0),
---   (2, 1, 91.0);
+INSERT INTO students (id, name, email, phone, enrollment_date) VALUES
+   (1, 'Aarav Sharma', 'aarav@example.com', '9800000001', '2024-01-10'),
+   (2, 'Priya Gurung', 'priya@example.com', '9800000002', '2024-01-11');
+
+ INSERT INTO courses (course_code, course_name, credits) VALUES
+   ('CS101', 'Introduction to Programming', 3),
+   ('CS102', 'Data Structures', 4);
+
+ INSERT INTO enrollments (student_id, course_id, marks) VALUES
+   (1, 1, 85.5),
+   (1, 2, 78.0),
+   (2, 1, 91.0);
