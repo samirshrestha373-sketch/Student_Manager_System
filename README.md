@@ -21,10 +21,13 @@ program exits.
 
 ## Technologies / Libraries Used
 
-- Java 17+ (core Java only — no Spring, no GUI framework)
-- JDBC with `mysql-connector-j` 8.4.0
-- MySQL 8.x
-- Maven for build/dependency management
+
+- Java
+- Maven
+- MySQL
+- JDBC
+- IntelliJ IDEA
+- Git & GitHub
 
 ## Project Structure
 
@@ -124,6 +127,22 @@ Open the schema.sql file.
 Run the SQL commands in MySQL.
 Configure the database connection in db.properties.
 Build and run the project.
+
+
+## How to Run
+
+1. Clone the repository.
+2. Open the project in IntelliJ IDEA.
+3. Make sure MySQL is running.
+4. Configure the database settings.
+5. Run `Main.java`.
+
+## Git Workflow
+
+--..bash
+--git add .
+--git commit -m "Describe your changes"
+--git push
 
 ## Known Limitations
 
